@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QUESTION-2.aspx.cs" Inherits="ASSIGNMENTS.ASSIGNMENT_1.QUESTION_2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QUESTION-4.aspx.cs" Inherits="ASSIGNMENTS.ASSIGNMENT_1.QUESTION_4" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Temperature Conversion</title>
+    <title>AutoPostBack Demonstration</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@
 
         .container {
             margin: 100px auto;
-            max-width: 400px;
+            max-width: 500px;
             background: #ffffff;
             padding: 30px;
             border-radius: 8px;
@@ -25,13 +25,6 @@
             text-align: center;
             color: #333;
             margin-bottom: 20px;
-        }
-
-        label {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 8px;
-            color: #555;
         }
 
         .form-control {
@@ -70,15 +63,31 @@
 
     <form id="form1" runat="server">
         <div class="container">
-            <h2>Temperature Conversion</h2>
-            <label for="txtTemperature">Enter Temperature:</label>
-            <asp:TextBox ID="txtTemperature" runat="server" CssClass="form-control" />
-            
-            <h2><label>Select Conversion:</label></h2>
-            <asp:RadioButton ID="rbToCelsius" runat="server" GroupName="Conversion" Text="Convert to Celsius" />
-            <asp:RadioButton ID="rbToFahrenheit" runat="server" GroupName="Conversion" Text="Convert to Fahrenheit" />
+            <h2>AutoPostBack Demonstration</h2>
+            <label for="txtName">Name:</label>
+            <asp:TextBox ID="txtName" runat="server" CssClass="form-control" />
 
-            <asp:Button ID="btnConvert" runat="server" Text="Convert" OnClick="btnConvert_Click" CssClass="btn" />
+            <label for="txtAge">Age:</label>
+            <asp:TextBox ID="txtAge" runat="server" CssClass="form-control" />
+
+            <label for="ddlCity">City:</label>
+            <asp:DropDownList ID="ddlCity" runat="server" AutoPostBack="true" CssClass="form-control">
+                <asp:ListItem Text="Select State" Value="" />
+                <asp:ListItem Text="gujrat" Value="Gujrat" />
+                <asp:ListItem Text="goa" Value="Goa" />
+                <asp:ListItem Text="panjab" Value="panjab" />
+                <asp:ListItem Text="maharastra" Value="maharastra" />
+                <asp:ListItem Text="tamilnadu" Value="tamilnadu" />
+            </asp:DropDownList>
+
+            <label>Gender:</label>
+            <asp:RadioButtonList ID="rblGender" runat="server" CssClass="form-control">
+                <asp:ListItem Text="Male" Value="Male" />
+                <asp:ListItem Text="Female" Value="Female" />
+            </asp:RadioButtonList>
+
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn" OnClick="btnSubmit_Click" />
+
             <asp:Label ID="lblResult" runat="server" CssClass="result"></asp:Label>
         </div>
     </form>
