@@ -67,9 +67,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ASSIGNMENT-1\HOME.aspx" />
+    <Content Include="ASSIGNMENT-1\QUESTION-1.aspx" />
+    <Content Include="ASSIGNMENT-1\QUESTION-2.aspx" />
+    <Content Include="ASSIGNMENT-1\QUESTION-3.aspx" />
+    <Content Include="ASSIGNMENTS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASSIGNMENT-1\HOME.aspx.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\HOME.aspx.designer.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\QUESTION-1.aspx.cs">
+      <DependentUpon>QUESTION-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\QUESTION-1.aspx.designer.cs">
+      <DependentUpon>QUESTION-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\QUESTION-2.aspx.cs">
+      <DependentUpon>QUESTION-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\QUESTION-2.aspx.designer.cs">
+      <DependentUpon>QUESTION-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\QUESTION-3.aspx.cs">
+      <DependentUpon>QUESTION-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-1\QUESTION-3.aspx.designer.cs">
+      <DependentUpon>QUESTION-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENTS.aspx.cs">
+      <DependentUpon>ASSIGNMENTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENTS.aspx.designer.cs">
+      <DependentUpon>ASSIGNMENTS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +121,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
