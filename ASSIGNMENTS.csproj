@@ -72,6 +72,14 @@
     <Content Include="ASSIGNMENT-1\QUESTION-2.aspx" />
     <Content Include="ASSIGNMENT-1\QUESTION-3.aspx" />
     <Content Include="ASSIGNMENT-1\QUESTION-4.aspx" />
+    <Content Include="ASSIGNMENT-2\HOME2.aspx" />
+    <Content Include="ASSIGNMENT-2\img1.jpg" />
+    <Content Include="ASSIGNMENT-2\img2.jpg" />
+    <Content Include="ASSIGNMENT-2\img3.jpg" />
+    <Content Include="ASSIGNMENT-2\QUESTION-1.aspx" />
+    <Content Include="ASSIGNMENT-2\QUESTION-2.aspx" />
+    <Content Include="ASSIGNMENT-2\QUESTION-3.aspx" />
+    <Content Include="ASSIGNMENT-2\XMLFile1.xml" />
     <Content Include="ASSIGNMENTS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -110,6 +118,34 @@
     </Compile>
     <Compile Include="ASSIGNMENT-1\QUESTION-4.aspx.designer.cs">
       <DependentUpon>QUESTION-4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\HOME2.aspx.cs">
+      <DependentUpon>HOME2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\HOME2.aspx.designer.cs">
+      <DependentUpon>HOME2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\QUESTION-1.aspx.cs">
+      <DependentUpon>QUESTION-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\QUESTION-1.aspx.designer.cs">
+      <DependentUpon>QUESTION-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\QUESTION-2.aspx.cs">
+      <DependentUpon>QUESTION-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\QUESTION-2.aspx.designer.cs">
+      <DependentUpon>QUESTION-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\QUESTION-3.aspx.cs">
+      <DependentUpon>QUESTION-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASSIGNMENT-2\QUESTION-3.aspx.designer.cs">
+      <DependentUpon>QUESTION-3.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASSIGNMENTS.aspx.cs">
       <DependentUpon>ASSIGNMENTS.aspx</DependentUpon>

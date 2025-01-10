@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~\ASSIGNMENT-2\img1.jpg</ImageUrl>
+		<NavigateUrl>https://lms.rku.ac.in/?login_success=1</NavigateUrl>
+		<AlternateText>image1</AlternateText>
+		<Impressions>50</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\ASSIGNMENT-2\img2.jpg</ImageUrl>
+		<NavigateUrl>https://www.example2.com</NavigateUrl>
+		<AlternateText>image2</AlternateText>
+		<Impressions>30</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\ASSIGNMENT-2\img3.jpg</ImageUrl>
+		<NavigateUrl>https://www.example3.com</NavigateUrl>
+		<AlternateText>image3</AlternateText>
+		<Impressions>20</Impressions>
+	</Ad>
+</Advertisements>

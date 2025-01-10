@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ASSIGNMENTS.aspx.cs" Inherits="ASSIGNMENTS.ASSIGNMENTS" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HOME2.aspx.cs" Inherits="ASSIGNMENTS.ASSIGNMENT_2.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -13,21 +13,22 @@
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">ASSIGNMENTS</a>
+    <a class="navbar-brand" href="#">ASSIGNMENT-2</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="/ASSIGNMENT-1/HOME.aspx">ASSIGNMENT-1</a>
+          <a class="nav-link active" aria-current="page" href="/ASSIGNMENT-2/QUESTION-1.aspx">QUESTION-1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/ASSIGNMENT-2/HOME2.aspx">ASSIGNMENT-2</a>
+          <a class="nav-link" href="/ASSIGNMENT-2/QUESTION-2.aspx">QUESTION-2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ASSIGNMENT-3</a>
-        </li>
+          <a class="nav-link" href="/ASSIGNMENT-2/QUESTION-3.aspx">QUESTION-3</a>
+        </li
+          
       </ul>
     </div>
   </div>
